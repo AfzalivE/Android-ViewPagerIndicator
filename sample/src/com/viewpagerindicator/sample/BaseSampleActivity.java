@@ -2,14 +2,13 @@ package com.viewpagerindicator.sample;
 
 import java.util.Random;
 
-import com.viewpagerindicator.PageIndicator;
-import com.viewpagerindicator.R;
-
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import com.viewpagerindicator.PageIndicator;
 
 public abstract class BaseSampleActivity extends FragmentActivity {
 	private static final Random RANDOM = new Random();
